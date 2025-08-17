@@ -1,5 +1,4 @@
-
-import myphoto from "../assets/images/myphoto.png"; 
+import myphoto from "../assets/images/myphoto.png";
 
 export const profile = {
   name: "Mohammad Elzogheir",
@@ -21,14 +20,14 @@ export const profile = {
   links: {
     github: "https://github.com/mohammadElzogheir",
     linkedin: "https://www.linkedin.com/in/mohammad-elzogheirr",
-    cv: "/myResume/Mohammad_Elzogheir_CV.pdf" 
+    cv: "/myResume/Mohammad_Elzogheir_CV.pdf"
   },
   photo: myphoto,
 
-   services: [
+  services: [
     { title: "Data Engineering", desc: "ETL/ELT, SQL, data modeling, reports." },
     { title: "Web Development", desc: "React + Bootstrap, responsive UI." },
-    { title: "Automation", desc: "Scripts to clean data and speed up tasks." },
+    { title: "Automation", desc: "Scripts to clean data and speed up tasks." }
   ],
 
   skills: [
@@ -72,23 +71,24 @@ export const profile = {
       name: "Todo App",
       tagline: "CRUD with localStorage",
       stack: ["React", "Bootstrap"],
-      link: "https://github.com/mohammadElzogheir/todo-app" // عدّل إن وجد
+      link: "https://github.com/mohammadElzogheir/todo-app"
     },
     {
       name: "Portfolio",
       tagline: "Personal website",
       stack: ["React", "Bootstrap"],
-      link: "https://github.com/mohammadElzogheir/portfolio" // عدّل
+      link: "https://github.com/mohammadElzogheir/portfolio"
     },
     {
       name: "Shop UI",
       tagline: "E-commerce layout",
       stack: ["React"],
-      link: "" // أضف رابط لاحقًا
+      link: ""
     }
   ],
 
   testimonials: [
     { text: "Great attention to detail.", author: "Sara" },
     { text: "Clean code and good communication.", author: "Omar" }
+  ]
 };
