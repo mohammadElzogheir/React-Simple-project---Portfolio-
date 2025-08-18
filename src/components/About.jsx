@@ -1,4 +1,3 @@
-
 import { profile } from "../data/profile";
 
 function About() {
@@ -40,6 +39,9 @@ function About() {
           <div className="d-flex gap-2">
             <a className="btn btn-primary" href={profile.links.cv} download>
               Download CV
+            </a>
+            <a className="btn btn-success" href={profile.links.cv} target="_blank" rel="noreferrer">
+              View CV
             </a>
             <a className="btn btn-outline-secondary" href={profile.links.github} target="_blank" rel="noreferrer">
               GitHub

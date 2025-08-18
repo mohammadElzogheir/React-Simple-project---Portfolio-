@@ -1,42 +1,16 @@
-import { profile } from '../data/profile';
 
-function Home() {
-  const { photo, links } = profile;
-
+export default function Home() {
   return (
-    <section id="home" className="container py-5">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is the home page</p>
+    <section id="home" className="hero-wrap text-center py-5">
+      <div className="container">
+        <h1 className="display-5 fw-bold mb-2">Welcome to My Portfolio</h1>
+        <p className="text-muted mb-4">This is the home page</p>
 
-      <img
-        src={photo}
-        alt="profile"
-        style={{ width: '200px', height: 'auto', borderRadius: '10px' }}
-      />
-
-      <div className="d-flex gap-2 mt-3">
-        
-        <a
-          href={links.cv}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-primary"
-        >
-          View CV
-        </a>
-
-        
-        <a
-          href={links.cv}
-          download
-          className="btn btn-outline-primary"
-        >
-          Download CV
-        </a>
-
+        <div className="d-flex justify-content-center gap-2">
+          <a href="#about" className="btn btn-primary">About me</a>
+          <a href="#projects" className="btn btn-outline-primary">Projects</a>
         </div>
+      </div>
     </section>
   );
 }
-
-export default Home;

@@ -46,3 +46,12 @@ html {
 section { 
   scroll-margin-top: 90px; 
 }
+section.container { 
+  max-width: 900px; 
+}
+section + section { 
+  scroll-margin-top: 80px; 
+}
+.badge + .badge { 
+  margin-left: .25rem;
+ }
