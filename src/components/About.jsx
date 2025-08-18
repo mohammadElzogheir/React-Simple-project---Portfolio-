@@ -36,20 +36,43 @@ function About() {
             ))}
           </div>
 
-          <div className="d-flex gap-2">
-            <a className="btn btn-primary" href={profile.links.cv} download>
+          <div className="d-grid gap-2 d-sm-flex">
+            <a
+              className="btn btn-primary w-100 w-sm-auto"
+              href={profile.links.cv}
+              download
+            >
               Download CV
             </a>
-            <a className="btn btn-success" href={profile.links.cv} target="_blank" rel="noreferrer">
+
+            <a
+              className="btn btn-primary w-100 w-sm-auto"
+              href={profile.links.cv}
+              target="_blank"
+              rel="noreferrer"
+            >
               View CV
             </a>
-            <a className="btn btn-outline-secondary" href={profile.links.github} target="_blank" rel="noreferrer">
+
+            <a
+              className="btn btn-primary w-100 w-sm-auto"
+              href={profile.links.github}
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
-            <a className="btn btn-outline-secondary" href={profile.links.linkedin} target="_blank" rel="noreferrer">
+
+            <a
+              className="btn btn-primary w-100 w-sm-auto"
+              href={profile.links.linkedin}
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </div>
+
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import myPhoto from "../assets/images/myphoto.png";
+const BASE = import.meta.env.BASE_URL || "/";
 
 export const profile = {
   name: "Mohammad Elzogheir",
@@ -24,7 +25,7 @@ export const profile = {
   links: {
     github: "https://github.com/mohammadElzogheir",
     linkedin: "https://www.linkedin.com/in/mohammad-elzogheirr",
-    cv: "/myResume/Mohammad_Elzogheir_CV.pdf" 
+    cv: `${BASE}myResume/Mohammad_Elzogheir_CV.pdf`, 
   },
 
   photo: myPhoto,
